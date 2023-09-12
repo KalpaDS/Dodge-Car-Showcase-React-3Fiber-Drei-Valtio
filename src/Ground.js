@@ -4,25 +4,25 @@ import {MeshReflectorMaterial} from "@react-three/drei";
 import {LinearEncoding, RepeatWrapping, TextureLoader} from "three";
 
 export function Ground() {
-    const [roughnes, normal] = useLoader(TextureLoader, [
+    const [roughness, normal] = useLoader(TextureLoader, [
         "textures/normal.jpg",
         "textures/rough.jpg"
     ]);
 
     useEffect(() => {
-            [normal, roughnes].forEach((t) => {
+            [normal, roughness].forEach((t) => {
                 t.wrapS = RepeatWrapping;
                 t.wrapT = RepeatWrapping;
                 t.repeat.set(5, 5);
                 t.offset.set(0, 0);
             });
             normal.encoding = LinearEncoding;
-        }, [normal, roughnes]
+        }, [normal, roughness]
     );
 
     useFrame((state, delta) => {
         let t = state.clock.getElapsedTime() * 0.128;
-        roughnes.offset.set(0, t % 1);
+        roughness.offset.set(0, t % 1);
         normal.offset.set(0, t % 1);
     });
 
@@ -33,7 +33,7 @@ export function Ground() {
                 envMapIntensity={0}
                 normalMap={normal}
                 normalScale={[0.15, 0.15]}
-                roughnessMap={roughnes}
+                roughnessMap={roughness}
                 dithering={true}
                 color={'grey'}
                 roughness={0.8}
