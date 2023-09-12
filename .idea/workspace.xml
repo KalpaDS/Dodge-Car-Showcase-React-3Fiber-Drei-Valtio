@@ -76,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694499183027</updated>
       <workItem from="1694499191335" duration="677000" />
-      <workItem from="1694501526852" duration="6708000" />
+      <workItem from="1694501526852" duration="6940000" />
     </task>
     <task id="LOCAL-00001" summary="#main">
       <created>1694500884821</created>
@@ -204,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694508209935</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="#Custom_Cursor_Init">
+      <created>1694508277709</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1694508277709</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +244,8 @@
     <MESSAGE value="#Background_Boxes_Setup" />
     <MESSAGE value="#ColorPicker and some CSS" />
     <MESSAGE value="#Car_Color_Selection_Setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="#Car_Color_Selection_Setup" />
+    <MESSAGE value="#Custom_Cursor_Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="#Custom_Cursor_Init" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -246,49 +254,37 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="450" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1694502509102" />
-    <state x="302" y="0" key="CommitChangelistDialog2" timestamp="1694508208807">
+    <state x="302" y="0" key="CommitChangelistDialog2" timestamp="1694508276511">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="302" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1694508208807" />
+    <state x="302" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1694508276511" />
     <state x="539" y="266" key="GitRewordDialog" timestamp="1694501144819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="539" y="266" key="GitRewordDialog/0.0.1366.728@0.0.1366.728" timestamp="1694501144819" />
-    <state width="1327" height="126" key="GridCell.Tab.0.bottom" timestamp="1694506790841">
+    <state width="693" height="126" key="GridCell.Tab.0.bottom" timestamp="1694508280352">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1327" height="126" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1694506790841" />
-    <state width="1327" height="126" key="GridCell.Tab.0.center" timestamp="1694506790840">
+    <state width="693" height="126" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1694508280352" />
+    <state width="693" height="126" key="GridCell.Tab.0.center" timestamp="1694508280352">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1327" height="126" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1694506790840" />
-    <state width="1327" height="126" key="GridCell.Tab.0.left" timestamp="1694506790840">
+    <state width="693" height="126" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1694508280352" />
+    <state width="693" height="126" key="GridCell.Tab.0.left" timestamp="1694508280351">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1327" height="126" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1694506790840" />
-    <state width="1327" height="126" key="GridCell.Tab.0.right" timestamp="1694506790841">
+    <state width="693" height="126" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1694508280351" />
+    <state width="693" height="126" key="GridCell.Tab.0.right" timestamp="1694508280352">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1327" height="126" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1694506790841" />
+    <state width="693" height="126" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1694508280352" />
     <state x="530" y="279" key="VCS.ChangelistChooser" timestamp="1694501159251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="530" y="279" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1694501159251" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1694507477047">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1694508376884">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1694507477047" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/ColourPicker.js</url>
-          <line>7</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1694508376884" />
   </component>
 </project>
