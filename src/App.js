@@ -4,6 +4,7 @@ import {Canvas} from 'react-three-fiber';
 import {Car} from './Car';
 import {OrbitControls, PerspectiveCamera, CubeCamera, Environment} from '@react-three/drei';
 import {Ground} from "./Ground";
+import {FloatingGroundGrid} from './FloatingGround';
 
 function App() {
     return (
@@ -45,6 +46,7 @@ function App() {
                         shadow-bias={-0.0001}
                     />
                     <Ground/>
+                    <FloatingGroundGrid/>
                 </Suspense>
             </Canvas>
         </>
