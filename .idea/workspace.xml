@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="183e5d76-feab-4599-bb5d-f58a2a05567c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FloatingGround.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FloatingGround.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ground.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ground.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694499183027</updated>
       <workItem from="1694499191335" duration="677000" />
-      <workItem from="1694501526852" duration="7280000" />
+      <workItem from="1694501526852" duration="7456000" />
     </task>
     <task id="LOCAL-00001" summary="#main">
       <created>1694500884821</created>
@@ -219,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694508580609</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="#fixes">
+      <created>1694508862057</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1694508862057</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +260,8 @@
     <MESSAGE value="#Car_Color_Selection_Setup" />
     <MESSAGE value="#Custom_Cursor_Init" />
     <MESSAGE value="#Wheel_Rotation" />
-    <option name="LAST_COMMIT_MESSAGE" value="#Wheel_Rotation" />
+    <MESSAGE value="#fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="#fixes" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -263,10 +270,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="450" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1694502509102" />
-    <state x="302" y="0" key="CommitChangelistDialog2" timestamp="1694508578155">
+    <state x="302" y="0" key="CommitChangelistDialog2" timestamp="1694508858725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="302" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1694508578155" />
+    <state x="302" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1694508858725" />
     <state x="539" y="266" key="GitRewordDialog" timestamp="1694501144819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

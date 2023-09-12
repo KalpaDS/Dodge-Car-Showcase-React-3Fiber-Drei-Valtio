@@ -12,7 +12,7 @@ function App() {
     return (
         <>
             <ColourPicker/>
-            <Canvas shadows={"soft"}>
+            <Canvas shadows>
                 <Suspense fallback={null}>
                     <CubeCamera resolution={1024} frames={Infinity}>
                         {(texture) => (
@@ -25,7 +25,12 @@ function App() {
                             </>
                         )}
                     </CubeCamera>
-                    <OrbitControls/>
+                    <OrbitControls
+                        target={[0, 0.35, 0]}
+                        maxPolarAngle={1.45}
+                        maxDistance={10}
+                        minDistance={5}
+                    />
                     <PerspectiveCamera makeDefault fov={50} position={[-2, -6, -5]}/>
                     <ambientLight
                         color={'white'}
