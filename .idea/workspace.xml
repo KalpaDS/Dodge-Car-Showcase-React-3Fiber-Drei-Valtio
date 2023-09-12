@@ -75,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694499183027</updated>
       <workItem from="1694499191335" duration="677000" />
-      <workItem from="1694501526852" duration="2203000" />
+      <workItem from="1694501526852" duration="2490000" />
     </task>
     <task id="LOCAL-00001" summary="#main">
       <created>1694500884821</created>
@@ -133,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694503578694</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="#CSS and Cam setup">
+      <created>1694503771588</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694503771588</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,10 +175,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="450" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1694502509102" />
-    <state x="302" y="0" key="CommitChangelistDialog2" timestamp="1694503575883">
+    <state x="302" y="0" key="CommitChangelistDialog2" timestamp="1694503764972">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="302" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1694503575883" />
+    <state x="302" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1694503764972" />
     <state x="539" y="266" key="GitRewordDialog" timestamp="1694501144819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

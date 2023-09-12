@@ -22,7 +22,27 @@ function App() {
                     </CubeCamera>
                     <OrbitControls/>
                     <PerspectiveCamera makeDefault fov={50} position={[-2, -6, -5]}/>
-
+                    <ambientLight
+                        color={'white'}
+                        intensity={1}
+                    />
+                    <spotLight
+                        color={'white'}
+                        intensity={1.5}
+                        angle={0.6}
+                        penumbra={0.5}
+                        position={[5, 5, 0]}
+                        castShadow
+                        shadow-bias={-0.0001}/>
+                    <spotLight
+                        color={'white'}
+                        intensity={2}
+                        angle={0.6}
+                        penumbra={0.5}
+                        position={[-5, 5, 0]}
+                        castShadow
+                        shadow-bias={-0.0001}
+                    />
                 </Suspense>
             </Canvas>
         </>
