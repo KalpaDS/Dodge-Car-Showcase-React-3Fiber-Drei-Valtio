@@ -5,6 +5,7 @@ import {Car} from './Car';
 import {OrbitControls, PerspectiveCamera, CubeCamera, Environment, Sky, Stars} from '@react-three/drei';
 import {Ground} from "./Ground";
 import {FloatingGroundGrid} from './FloatingGround';
+import {Boxes} from './Boxes';
 
 function App() {
     return (
@@ -47,6 +48,7 @@ function App() {
                     />
                     <Stars radius={90} depth={50} count={7000} factor={4} saturation={0} fade speed={1.5}/>
                     <Sky distance={450000} sunPosition={[5, 1, -8]} inclination={0} azimuth={0.25}/>
+                    <Boxes/>
                     <Ground/>
                     <FloatingGroundGrid/>
                 </Suspense>
