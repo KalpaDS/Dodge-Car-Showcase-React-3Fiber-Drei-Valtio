@@ -118,10 +118,10 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="302" y="0" key="CommitChangelistDialog2" timestamp="1694501187302">
+    <state x="302" y="0" key="CommitChangelistDialog2" timestamp="1694501609265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="302" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1694501187302" />
+    <state x="302" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1694501609265" />
     <state x="539" y="266" key="GitRewordDialog" timestamp="1694501144819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -146,9 +146,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="530" y="279" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1694501159251" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1694501194242">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1694501614930">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1694501194242" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1694501614930" />
   </component>
 </project>
