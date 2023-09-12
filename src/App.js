@@ -3,6 +3,7 @@ import React, {Suspense} from "react";
 import {Canvas} from 'react-three-fiber';
 import {Car} from './Car';
 import {OrbitControls, PerspectiveCamera, CubeCamera, Environment} from '@react-three/drei';
+import {Ground} from "./Ground";
 
 function App() {
     return (
@@ -43,6 +44,7 @@ function App() {
                         castShadow
                         shadow-bias={-0.0001}
                     />
+                    <Ground/>
                 </Suspense>
             </Canvas>
         </>
