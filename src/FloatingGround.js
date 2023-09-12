@@ -3,7 +3,7 @@ import React, {useEffect} from "react";
 import {RepeatWrapping, TextureLoader} from "three";
 
 export function FloatingGroundGrid() {
-    const diffuse = useLoader(TextureLoader, process.env.PUBLIC_URL + 'textures/ground.jpg');
+    const diffuse = useLoader(TextureLoader, 'textures/ground.jpg');
 
     useEffect(() => {
         diffuse.wrapS = RepeatWrapping;
@@ -21,7 +21,7 @@ export function FloatingGroundGrid() {
     return (
         <>
             <mesh rotation-x={-Math.PI * 0.5} position={[0, 0, 0]}>
-                <planeGeometry color={'red'} args={[35, 35]}/>
+                <planeGeometry args={[35, 35]}/>
                 <meshBasicMaterial
                     color={[1, 1, 1]}
                     opacity={0.15}

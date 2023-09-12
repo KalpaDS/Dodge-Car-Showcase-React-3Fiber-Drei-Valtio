@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="183e5d76-feab-4599-bb5d-f58a2a05567c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FloatingGround.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FloatingGround.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,17 @@
       <recent name="H:\Project(React)\dodge-car-showcase-react-3fiber-drei-valtio\public" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -50,6 +60,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -76,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694499183027</updated>
       <workItem from="1694499191335" duration="677000" />
-      <workItem from="1694501526852" duration="7456000" />
+      <workItem from="1694501526852" duration="7905000" />
     </task>
     <task id="LOCAL-00001" summary="#main">
       <created>1694500884821</created>
@@ -225,7 +236,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694508862057</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="#fixes">
+      <created>1694509064780</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1694509064780</updated>
+    </task>
+    <task id="LOCAL-00023" summary="#OrbitControls_Zooming_Setup">
+      <created>1694509117625</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1694509117625</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +286,8 @@
     <MESSAGE value="#Custom_Cursor_Init" />
     <MESSAGE value="#Wheel_Rotation" />
     <MESSAGE value="#fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="#fixes" />
+    <MESSAGE value="#OrbitControls_Zooming_Setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="#OrbitControls_Zooming_Setup" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -270,37 +296,37 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="450" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1694502509102" />
-    <state x="302" y="0" key="CommitChangelistDialog2" timestamp="1694509062671">
+    <state x="302" y="0" key="CommitChangelistDialog2" timestamp="1694509115276">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="302" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1694509062671" />
+    <state x="302" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1694509115276" />
     <state x="539" y="266" key="GitRewordDialog" timestamp="1694501144819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="539" y="266" key="GitRewordDialog/0.0.1366.728@0.0.1366.728" timestamp="1694501144819" />
-    <state width="693" height="126" key="GridCell.Tab.0.bottom" timestamp="1694508280352">
+    <state width="1345" height="126" key="GridCell.Tab.0.bottom" timestamp="1694509461828">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="693" height="126" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1694508280352" />
-    <state width="693" height="126" key="GridCell.Tab.0.center" timestamp="1694508280352">
+    <state width="1345" height="126" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1694509461828" />
+    <state width="1345" height="126" key="GridCell.Tab.0.center" timestamp="1694509461828">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="693" height="126" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1694508280352" />
-    <state width="693" height="126" key="GridCell.Tab.0.left" timestamp="1694508280351">
+    <state width="1345" height="126" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1694509461828" />
+    <state width="1345" height="126" key="GridCell.Tab.0.left" timestamp="1694509461828">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="693" height="126" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1694508280351" />
-    <state width="693" height="126" key="GridCell.Tab.0.right" timestamp="1694508280352">
+    <state width="1345" height="126" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1694509461828" />
+    <state width="1345" height="126" key="GridCell.Tab.0.right" timestamp="1694509461828">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="693" height="126" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1694508280352" />
+    <state width="1345" height="126" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1694509461828" />
     <state x="530" y="279" key="VCS.ChangelistChooser" timestamp="1694501159251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="530" y="279" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1694501159251" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1694508584910">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1694509124300">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1694508584910" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1694509124300" />
   </component>
 </project>
