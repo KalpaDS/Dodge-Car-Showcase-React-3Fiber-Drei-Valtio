@@ -1,5 +1,20 @@
-import React, {useRef} from "react";
+import React, {useRef, useEffect, useState} from "react";
 import {useGLTF} from "@react-three/drei";
+import {useFrame} from "@react-three/fiber";
+import {proxy} from "valtio";
+import {useProxy} from 'valtio/utils';
+
+export const state = proxy({
+    current: null,
+    items: {
+        main: 'red',
+        windows: "white",
+        shell: 'black',
+        bodyKit: "black",
+        doors: "red",
+        no3: 'black'
+    }
+});
 
 export function Car(props) {
     const {nodes, materials} = useGLTF("/car.glb");

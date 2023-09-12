@@ -6,11 +6,13 @@ import {OrbitControls, PerspectiveCamera, CubeCamera, Environment, Sky, Stars} f
 import {Ground} from "./Ground";
 import {FloatingGroundGrid} from './FloatingGround';
 import {Boxes} from './Boxes';
+import {ColourPicker} from "./ColourPicker";
 
 function App() {
     return (
         <>
-            <Canvas>
+            <ColourPicker/>
+            <Canvas shadows={"soft"}>
                 <Suspense fallback={null}>
                     <CubeCamera resolution={1024} frames={Infinity}>
                         {(texture) => (
