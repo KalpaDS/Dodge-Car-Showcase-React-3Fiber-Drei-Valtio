@@ -76,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694499183027</updated>
       <workItem from="1694499191335" duration="677000" />
-      <workItem from="1694501526852" duration="6604000" />
+      <workItem from="1694501526852" duration="6708000" />
     </task>
     <task id="LOCAL-00001" summary="#main">
       <created>1694500884821</created>
@@ -197,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694507649469</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="#Car_Color_Selection_Setup">
+      <created>1694508209935</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1694508209935</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +236,8 @@
     <MESSAGE value="#SkyBox and Stars setup" />
     <MESSAGE value="#Background_Boxes_Setup" />
     <MESSAGE value="#ColorPicker and some CSS" />
-    <option name="LAST_COMMIT_MESSAGE" value="#ColorPicker and some CSS" />
+    <MESSAGE value="#Car_Color_Selection_Setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="#Car_Color_Selection_Setup" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -238,10 +246,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="450" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1694502509102" />
-    <state x="302" y="0" key="CommitChangelistDialog2" timestamp="1694507647135">
+    <state x="302" y="0" key="CommitChangelistDialog2" timestamp="1694508208807">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="302" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1694507647135" />
+    <state x="302" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1694508208807" />
     <state x="539" y="266" key="GitRewordDialog" timestamp="1694501144819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
