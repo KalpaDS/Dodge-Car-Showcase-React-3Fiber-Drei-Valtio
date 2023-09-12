@@ -17,9 +17,31 @@ export const state = proxy({
 });
 
 export function Car(props) {
+    const group = useRef();
+    const snap = useProxy(state);
+    const [hovered, set] = useState(null);
+
+
     const {nodes, materials} = useGLTF("/car.glb");
     return (
-        <group {...props} dispose={null}>
+        <group ref={group} {...props} dispose={null}
+            //onPointerOver={(e) =>
+            //e.stopPropagation(console.log(e.object.material.name))}
+               onPointerOver={(e) => {
+                   e.stopPropagation();
+                   set(e.object.material.name);
+               }}
+               onPointerOut={(e) => {
+                   e.intersections.length === 0 && set(null);
+               }}
+               onPointerDown={(e) => {
+                   e.stopPropagation();
+                   state.current = e.object.material.name;
+               }}
+               onPointerMissed={(e) => {
+                   state.current = null;
+               }}
+        >
             <group
                 position={[0.008, -2.257, 0.46]}
                 rotation={[Math.PI / 2, 0, 0]}
@@ -28,12 +50,14 @@ export function Car(props) {
                 <mesh
                     castShadow
                     receiveShadow
+                    material-color={snap.items.main}
                     geometry={nodes.body_1.geometry}
                     material={materials.main}
                 />
                 <mesh
                     castShadow
                     receiveShadow
+                    material-color={snap.items.bodyKit}
                     geometry={nodes.body_2.geometry}
                     material={materials.bodyKit}
                 />
@@ -46,6 +70,7 @@ export function Car(props) {
                 <mesh
                     castShadow
                     receiveShadow
+                    material-color={snap.items.windows}
                     geometry={nodes.body_4.geometry}
                     material={materials.windows}
                 />
@@ -120,6 +145,7 @@ export function Car(props) {
                 castShadow
                 receiveShadow
                 geometry={nodes.no15.geometry}
+                material-color={snap.items.shell}
                 material={materials.shell}
                 rotation={[Math.PI / 2, 0, 0]}
                 scale={[-0.002, -0.014, -0.018]}
@@ -127,6 +153,7 @@ export function Car(props) {
             <mesh
                 castShadow
                 receiveShadow
+                material-color={snap.items.shell}
                 geometry={nodes.no2.geometry}
                 material={materials.shell}
                 position={[0.034, -0.472, -2.541]}
@@ -154,6 +181,7 @@ export function Car(props) {
             <mesh
                 castShadow
                 receiveShadow
+                material-color={snap.items.shell}
                 geometry={nodes.no16.geometry}
                 material={materials.shell}
                 position={[0.102, 0.228, -2.301]}
@@ -163,6 +191,7 @@ export function Car(props) {
             <mesh
                 castShadow
                 receiveShadow
+                material-color={snap.items.shell}
                 geometry={nodes.no17.geometry}
                 material={materials.shell}
                 position={[0.72, 0.153, -1.393]}

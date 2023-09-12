@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="183e5d76-feab-4599-bb5d-f58a2a05567c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ColourPicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColourPicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Car.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694499183027</updated>
       <workItem from="1694499191335" duration="677000" />
-      <workItem from="1694501526852" duration="6087000" />
+      <workItem from="1694501526852" duration="6604000" />
     </task>
     <task id="LOCAL-00001" summary="#main">
       <created>1694500884821</created>
@@ -190,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694507473147</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="#ColorPicker and some CSS">
+      <created>1694507649469</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1694507649469</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,10 +238,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="450" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1694502509102" />
-    <state x="302" y="0" key="CommitChangelistDialog2" timestamp="1694507471491">
+    <state x="302" y="0" key="CommitChangelistDialog2" timestamp="1694507647135">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="302" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1694507471491" />
+    <state x="302" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1694507647135" />
     <state x="539" y="266" key="GitRewordDialog" timestamp="1694501144819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -263,5 +270,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1694507477047" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/ColourPicker.js</url>
+          <line>7</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
