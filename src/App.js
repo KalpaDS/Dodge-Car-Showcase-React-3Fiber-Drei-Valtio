@@ -20,6 +20,9 @@ function App() {
                             </>
                         )}
                     </CubeCamera>
+                    <OrbitControls/>
+                    <PerspectiveCamera makeDefault fov={50} position={[-2, -6, -5]}/>
+
                 </Suspense>
             </Canvas>
         </>
