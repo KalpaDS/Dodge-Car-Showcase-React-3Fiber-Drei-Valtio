@@ -4,10 +4,15 @@ import {state} from "./Car";
 import {HexColorPicker} from "react-colorful";
 
 export function ColourPicker() {
-    const snap = useProxy();
+    const snap = useProxy(state);
     return (
-        <div>
-            <HexColorPicker/>
+        <div style={{display: snap.current ? "block" : "none"}}>
+            <HexColorPicker
+                className="cpicker"
+                color={snap.items[snap.current]}
+                onChange={(color) => (state.items[snap.current] = color)}
+            />
+            <h1>{'Choose for : ' + snap.current}</h1>
         </div>
     );
 }
